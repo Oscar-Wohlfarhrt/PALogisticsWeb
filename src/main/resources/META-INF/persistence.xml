@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+  <!-- Define Persistence Unit -->
+  <persistence-unit name="PALogisticsWebPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.EnderFire.PALogisticsWeb.Models.Proveedor</class>
+    <class>com.EnderFire.PALogisticsWeb.Models.Pedido</class>
+    <class>com.EnderFire.PALogisticsWeb.Models.Transportista</class>
+    <class>com.EnderFire.PALogisticsWeb.Models.Preferencia</class>
+    <class>com.EnderFire.PALogisticsWeb.Models.Almacen</class>
+    <class>com.EnderFire.PALogisticsWeb.Models.Ubicacion</class>
+    <class>com.EnderFire.PALogisticsWeb.Models.Ruta</class>
+    <class>com.EnderFire.PALogisticsWeb.Models.Inventario</class>
+    <class>com.EnderFire.PALogisticsWeb.Models.OrdenCompra</class>
+    <class>com.EnderFire.PALogisticsWeb.Models.Mercancia</class>
+    <class>com.EnderFire.PALogisticsWeb.Models.Contrato</class>
+    <class>com.EnderFire.PALogisticsWeb.Models.RendimientoProveedor</class>
+    <class>com.EnderFire.PALogisticsWeb.Models.InformacionContacto</class>
+    <class>com.EnderFire.PALogisticsWeb.Models.CentroDistribucion</class>
+    <class>com.EnderFire.PALogisticsWeb.Models.Cliente</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://Oscar-NB\MSSQLSERVER:1433;databaseName=DBPATPI;encrypt=false"/>
+      <property name="javax.persistence.jdbc.user" value="sa"/>
+      <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+      <property name="javax.persistence.jdbc.password" value="ronroneo"/>
+    </properties>
+  </persistence-unit>
+</persistence>

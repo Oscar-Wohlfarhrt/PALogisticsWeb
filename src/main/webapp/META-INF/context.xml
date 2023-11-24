@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/PALogisticsWeb">
+  <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" maxActive="20" maxIdle="10" maxWait="-1" name="PALogisticsWebPU" password="ronroneo" type="javax.sql.DataSource" url="jdbc:sqlserver://Oscar-NB\MSSQLSERVER:1433;databaseName=DBPATPI;encrypt=false" username="sa"/>
+</Context>
